@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MAIN</title>
+</head>
+<body>
+<!-- INCIA LA BARRA DE NAVEGACION-->
+<nav>
+    <ol>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ol>
+</nav>
+
+
+<hr />
+<section id="inicio">
+    <h1>Pollo Asiático</h1>
+    <p>Sabores auténticos de Asia directo a tu mesa.</p>
+    <p>Conoce nuestra ubicacion .</p>
+    <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">
+        Ver ubicación en Google Maps
+    </a>
+
+    <br><br>
+
+    <a href="#menu">Ver Menú</a>
+</section>
+<hr />
+
+<!-- MENU-->
+<section id="menu">
+    <h2>Nuestro Menú</h2>
+    <p>Los platos favoritos de nuestros clientes</p>
+    <table border="1" cellpadding="8" cellspacing="0" width="80%">
+        <thead>
+        <tr>
+            <th>Plato</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>Pollo Teriyaki</td>
+            <td>Pollo a la plancha con salsa teriyaki y arroz</td>
+            <td>$12.000</td>
+        </tr>
+
+        <tr>
+            <td>Pollo Kung Pao</td>
+            <td>Pollo salteado con maní, pimientos y chile seco</td>
+            <td>$13.500</td>
+        </tr>
+        </tbody>
+    </table>
+    <p>Nuestro plato mas popular</p>
+    <iframe
+            width="560"
+            height="315"
+            src="https://youtube.com/shorts/-ffEQP1dATw?si=V-za-uwdEiZ3lm_O"
+            title="PLATO POPULAR "
+            frameborder="0"
+            allowfullscreen
+    ></iframe>
+</section>
+
+<!-- CONTACTO-->
+<hr />
+<section id="contacto">
+    <h2>Reserva tu Mesa</h2>
+    <form action="#" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="contacto">Contacto (teléfono o email):</label><br>
+        <input type="text" id="contacto" name="contacto" required><br><br>
+
+        <label for="hora">Hora de reserva:</label><br>
+        <input type="time" id="hora" name="hora" required><br><br>
+
+        <input type="submit" value="Reservar">
+    </form>
+</section>
+<hr>
+<!-- INFORMACION GENERAL -->
+
+<footer>
+    <p><strong>Pollo Asiático</strong></p>
+    <p>Barranquilla - Colombia</p>
+    <p>Tel: +57 310 555 0202</p>
+</footer>
+</body>
+</html>
