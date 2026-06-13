@@ -1,2 +1,159 @@
+/* ===== ESTILOS GENERALES ===== */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background-color: #f5ede3;
+    color: #4b3621;
+    line-height: 1.6;
+}
+
+/* ===== ENCABEZADO ===== */
+
+header{
+    background: #6f4e37;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+/* ===== NAVEGACIÓN ===== */
+
+nav{
+    background: #8b5e3c;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #f3d5b5;
+}
+
+/* ===== CONTENEDOR ===== */
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* ===== TARJETAS ===== */
+
+.card{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-3px);
+}
+
+.card h2{
+    color: #6f4e37;
+    margin-bottom: 10px;
+}
+
+/* ===== BOTONES ===== */
+
+button,
+.btn{
+    background: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+.btn:hover{
+    background: #6f4e37;
+}
+
+/* ===== FORMULARIOS ===== */
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d2b48c;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    outline: none;
+    border-color: #8b5e3c;
+}
+
+/* ===== TABLAS ===== */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th{
+    background: #8b5e3c;
+    color: white;
+}
+
+th, td{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* ===== PIE DE PÁGINA ===== */
+
+footer{
+    background: #6f4e37;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:768px){
+
+    nav a{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container{
+        width: 95%;
+    }
+
+}
 
