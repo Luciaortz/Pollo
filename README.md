@@ -115,7 +115,7 @@ O ejecutar el proyecto utilizando Live Server desde Visual Studio Code.
 
 ---
 
-## ▶️ Ejecución
+##  Ejecución
 
 Puedes abrir directamente el archivo:
 
@@ -127,6 +127,6 @@ en cualquier navegador moderno.
 
 
 
-## 📄 Licencia
+##  Licencia
 
 Proyecto académico y educativo.
